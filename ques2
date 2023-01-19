@@ -1,0 +1,11 @@
+n=float(input("Enter your marks : "))
+if(n>90):
+    print("EXCELLENT")
+elif(n<=90 and n>80):
+    print("GOOD")
+elif(n<=80 and n>70):
+    print("FAIR")
+elif(n<=70 and n>60):
+    print("MEETS EXPECTATIONS")
+else:
+    print("BELOW THE PAR")
