@@ -1,0 +1,9 @@
+result_str="";    
+for r in range(0,5):    
+    for j in range(0,5):     
+        if (((r==0 or r==4) and j>=0 and j<=4) or r+j==4):  
+            result_str=result_str+"*"    
+        else:      
+            result_str=result_str+" "    
+    result_str=result_str+"\n"    
+print(result_str);
